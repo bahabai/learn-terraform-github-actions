@@ -11,6 +11,7 @@ terraform {
   }
   required_version = "~> 1.0"
 
+
   backend "remote" {
     organization = "Bakhytzhan-Terraform-Labs"
 
@@ -19,6 +20,7 @@ terraform {
     }
   }
 }
+
 
 
 provider "aws" {
